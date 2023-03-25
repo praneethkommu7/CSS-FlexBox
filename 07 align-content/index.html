@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS FlexBox</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    /* align-content    Vertical alignment */
+    /* strech(default), flex-start, flex-end, center, space-between, space-around */
+    .container {
+      display: flex;
+      /* height: 65px; */
+      height: 60vh;
+      flex-wrap: wrap;
+      /* align-content: stretch; */
+      /* align-content: flex-start; */
+      /* align-content: flex-end; */
+      /* align-content: center; */
+      /* align-content: space-between; */
+      /* align-content: space-around; */
+
+      /* To check the difference view in responsive mode */
+    }
+  </style>
+  <body>
+    <!-- Parent = flex-container -->
+    <div class="container">
+      <!-- Childrens - flex-items -->
+      <div class="box box-1">1</div>
+      <div class="box box-2">2</div>
+      <div class="box box-3">3</div>
+      <div class="box box-4">4</div>
+      <div class="box box-5">5</div>
+      <div class="box generic">G1</div>
+      <div class="box generic">G2</div>
+      <div class="box generic">G3</div>
+      <div class="box generic">G4</div>
+      <div class="box generic">G5</div>
+      <div class="box generic">G6</div>
+    </div>
+  </body>
+</html>

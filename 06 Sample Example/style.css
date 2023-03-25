@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100vw;
+  min-height: calc(100vh - 10vh);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url("../Images/Beach.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 70px;
+  color: white;
+  text-shadow: 5px 4px 7px rgb(30, 149, 181);
+}
+
+.navBar {
+  width: 100vw;
+  min-height: 10vh;
+  background-color: #365a62;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+a {
+  /* padding: 20px 20px 0 0; */
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  text-shadow: 5px 4px 7px rgb(30, 149, 181);
+}
